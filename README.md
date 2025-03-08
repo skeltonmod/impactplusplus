@@ -1,16 +1,16 @@
 Impact++ (r7)
 ========
 
-###[DOCS](http://collinhover.github.com/impactplusplus) / [DEMO](http://collinhover.github.com/impactplusplus/demo)  / [GENERATOR](https://github.com/racingcow/generator-impactplusplus)
+### [DOCS](http://collinhover.github.com/impactplusplus) / [DEMO](http://collinhover.github.com/impactplusplus/demo)  / [GENERATOR](https://github.com/racingcow/generator-impactplusplus)
   
-####Overview
+#### Overview
 
 Expanding the [ImpactJS engine](http://impactjs.com "ImpactJS") by over x10 so you can kick-start your game project into a full featured experience for the web (and mobile!).
 ```
 Impact++ is stable for ImpactJS v1.20 - v1.23
 ```
   
-####Features
+#### Features
 * Extended capability of ImpactJS's default classes to improve collisions, animations,...
 * ```ig.CONFIG``` data driven configuration to allow you to change parameters without rebuilding or modifying the library
 * ```ig.GameExtended``` game with layers, easy pausing, improved debugger,...
@@ -32,7 +32,7 @@ Impact++ is stable for ImpactJS v1.20 - v1.23
 * ```ig.utils``` huge list of utility functions for vectors, drawing, intersections, math, tiles,...
 * and too much more to reasonably list here!
   
-####Download
+#### Download
 [
 ![Download Zip](http://github.com/images/modules/download/zip.png)
 ](http://github.com/collinhover/impactplusplus/zipball/master/)
@@ -40,11 +40,11 @@ Impact++ is stable for ImpactJS v1.20 - v1.23
 ![Download Zip](http://github.com/images/modules/download/tar.png)
 ](http://github.com/collinhover/impactplusplus/tarball/master/)
   
-##Getting Started
-####Generator Method
+## Getting Started
+#### Generator Method
 1. Use the killer [Yeoman Generator](https://github.com/racingcow/generator-impactplusplus) put together by @racingcow
   
-####Manual Method
+#### Manual Method
 1. Download using one of the "Download" links and extract the files.
 2. Copy the **impactplusplus/lib/plusplus** folder into your new or existing ImpactJS project **lib** directory.
 3. Either copy the **impactplusplus/lib/weltmeister/config.js** into your projet's **lib/weltmeister** directory...
@@ -54,17 +54,17 @@ Impact++ is stable for ImpactJS v1.20 - v1.23
   
 Next, make sure you're comfortable with the [ImpactJS Documentation](http://impactjs.com/documentation). Then load up the Impact++ Jump N' Run demo (see below) to review the basics, and dive into the [Impact++ Documentation](http://collinhover.github.com/impactplusplus).
   
-####Demo: Jump N' Run
+#### Demo: Jump N' Run
 Check out the Jump N' Run demo for an overview of getting started with Impact++, located in the 'examples/jumpnrun' directory. Don't forget to copy the ImpactJS engine and Weltmeister files into the demo directory!
   
-####Demo: SUPER COLLIDER!
+#### Demo: SUPER COLLIDER!
 Check out the SUPER COLLIDER demo for an overview of how to use almost every single feature in Impact++, located in the 'examples/supercollider' directory. Don't forget to copy the ImpactJS engine and Weltmeister files into the demo directory!
   
-##FAQ
-####Ejecta, Cocoonjs, etc?
+## FAQ
+#### Ejecta, Cocoonjs, etc?
 Impact++ has been built from day one to be portable / wrappable to iOS, Android, Win8, etc. Tests are ongoing, but the library does nothing that should need special handling when porting or wrapping your game code for distribution as a mobile app. Please let us know if you find any issues!
   
-####Custom Settings
+#### Custom Settings
 	// edit the user config file at 'plusplus/config-user.js'
 	// then you can set values
 	// for any of the properties that appear in ig.CONFIG
@@ -76,18 +76,18 @@ Impact++ has been built from day one to be portable / wrappable to iOS, Android,
 		LOADER_LOGO_SRC_MAIN: 'data:image/png;base64,...'
 	};
   
-####Design Philosophy
+#### Design Philosophy
 * _Modularity_ - code should be reusable whenever possible
 * _Parametrize_ - projects should be able to change settings without modifying the library
 * _Be agnostic_ - do not rely on device or browser specific functionality
 * _Consistency_ - the codebase should look like a cohesive whole
 * _Document_ - the codebase should be reasonably documented
   
-####Contributing
+#### Contributing
 We'd love it if you want to help make Impact++ better, so if you're interested take a look at [CONTRIBUTING](https://github.com/collinhover/impactplusplus/blob/master/CONTRIBUTING.md).
   
-####License
+#### License
 Impact++ is licensed under the MIT license. For full license and information, see [LICENSE](https://github.com/collinhover/impactplusplus/blob/master/LICENSE.md).
   
-##Changelog
+## Changelog
 Check out the [Releases](https://github.com/collinhover/impactplusplus/releases).
